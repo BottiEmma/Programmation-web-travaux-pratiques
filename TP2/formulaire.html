@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8">
+    <title>Titre de la page</title>
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script src="formulaire.js"></script>
+  </head>
+  <body>
+    <h1>Formulaire</h1>
+    <form>
+    <label>Etat civil</label><select name="civil"><option value="M">M</option>
+---------------Mme----------Mme---------
+    </select></br>
+    <label>Nom</label><input type="text" name="nom" class="requ"/></br>
+--------prenom---------prenom----------
+    <label>Nom complet</label><input type="text" name="complet" disabled/></br>
+    <label>Date</label><input type="date" id="date" name="naissance" min="1922-01-01" max="2022-01-01" class="requ"/></br>
+    <label>Niveau</label><input id="niveau" name="niveau" type="range" mon="0" max="10"/>
+    <output name="niv"></output>
+    <br/>
+    <label>Couleur</label><input id="couleur" name="couleur" tye="color"/></br>
+  </body>
+</html>
