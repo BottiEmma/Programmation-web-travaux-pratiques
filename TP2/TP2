@@ -1,6 +1,0 @@
-1 JQuery
-
-3.
-f. Pour que cet ajout ait lieu si le souris est relâchée n'importe où sur la page, il suffit de faire une variable isDown initialisée à false, la mettre à true dans mousedown et faire une fonction mouseup sur document avec la même chose que dans mouseup dans la condition que isDown=true, puis on la réinitialise à false.
-5.
-d. Dans le cas contraire, le problème serait que ça donne que l'image pousse l'autre et on a pas un véritable transition passant d'une image à l'autre.
