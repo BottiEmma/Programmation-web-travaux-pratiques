@@ -1,0 +1,8 @@
+function Dico(){
+    this.tab=[];
+    this.words=function(){return this.tab;}
+    this.search=function(void){
+	const test= (str)=>(str==words);
+	return this.tab=findIndex(test)>=0;
+    }
+}

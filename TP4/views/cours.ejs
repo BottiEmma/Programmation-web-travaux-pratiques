@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8">
+    <title>ok</title>
+  </head>
+  <body>
+    <header>
+	<h1>Page de cours <%=titre%></h1>
+    </header>
+    <section>
+	<p>Descriptif<%=descriptif%></p>
+    </section>
+    <section>
+	<ul><%for(let i=0;i<profs.length;i++){%>
+           <li><%=profs[i]%></li>
+	   </ul><%}%>
+    </section>
+  </body>
+</html>

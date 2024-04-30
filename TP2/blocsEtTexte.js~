@@ -1,0 +1,24 @@
+$(document).ready (function(){
+    $('.blocRouge').css({border:"red solid", margin:"auto", width:"50%"});
+    $('.blocRouge').mouseover(function(){console.log("Attention, vous entrez dans la zone rouge");});
+    var nbUp=0;
+    var nbBas=0;
+    $('.blocRouge').mousedown(function(){
+	$(this).css("border-color","green");
+	var nouveau = $("<p class='np'>np</p>");
+	$('header').append(nouveau);
+	nouveau.click(supprime);
+	nbUp++;
+	refreshBlock();
+    });
+    var supprime = function(){
+	$(this).hide();
+	if($(this).hasClass("np")) nbUp--;
+	else nbBas--;
+	refreshBlock();
+    };
+    function refrechBlock(){
+	$haut.text(nbUp);
+	$bas.text(nbBas);
+    };
+});

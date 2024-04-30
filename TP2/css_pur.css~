@@ -1,0 +1,3 @@
+#sco1:hover #first{ display: none; }
+
+#sco1:hover #second{ display: inline; }

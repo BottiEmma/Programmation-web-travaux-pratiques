@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8">
+    <title>Titre de la page</title>
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script src="formulaire.js"></script>
+  </head>
+  <body>
+    <header></header>
+    <div class="blocRouge" style="border:1px;border-color:red;">
+      cliquez ici - Decompte (
+      <span id="haut">0</span>
+      <span id="bas">0</span>
+      )
+    </div>
+    <footer></footer>
+  </body>
+</html>

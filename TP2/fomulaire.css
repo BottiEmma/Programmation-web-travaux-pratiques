@@ -1,0 +1,11 @@
+h1{text-align: center;}
+
+form{width: 500px; margin: auto;}
+
+label, input, textover{display: block; width: 200px; float: left;}
+
+#niveau{line-height: 1.5;}
+
+#couleur{width: 600px;}
+
+br{clear: left;}
